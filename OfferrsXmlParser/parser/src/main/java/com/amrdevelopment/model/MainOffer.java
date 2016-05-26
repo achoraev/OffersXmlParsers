@@ -18,7 +18,7 @@ public class MainOffer {
     private Validation validation;
     private String link;
     private List<Picture> pictures;
-    private List<Merchant> merchants;
+    private Merchant merchants;
     private List<Place> places;
     private Integer priority;
     private Integer rpvlt;
@@ -112,11 +112,11 @@ public class MainOffer {
         this.pictures = pictures;
     }
 
-    public List<Merchant> getMerchants() {
+    public Merchant getMerchants() {
         return merchants;
     }
 
-    public void setMerchants(List<Merchant> merchants) {
+    public void setMerchants(Merchant merchants) {
         this.merchants = merchants;
     }
 

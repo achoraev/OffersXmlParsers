@@ -1,7 +1,5 @@
 package com.amrdevelopment.model;
 
-import java.util.List;
-
 /**
  * Created on 13-May-16
  */
@@ -11,7 +9,7 @@ public class Merchant {
     private String name;
     private String email;
     private String website;
-    private List<Contact> contacts;
+    private Contact contacts;
 
     public Integer getId() {
         return id;
@@ -45,11 +43,11 @@ public class Merchant {
         this.website = website;
     }
 
-    public List<Contact> getContacts() {
+    public Contact getContacts() {
         return contacts;
     }
 
-    public void setContacts(List<Contact> contacts) {
+    public void setContacts(Contact contacts) {
         this.contacts = contacts;
     }
 }
