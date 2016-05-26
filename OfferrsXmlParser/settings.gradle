@@ -1,1 +1,1 @@
-include ':mobile', ':tv', ':parser'
+include ':mobile', ':parser'
